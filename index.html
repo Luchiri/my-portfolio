@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Catherine Luchiri - Portfolio</title>
+        <!--css link-->
+        <link rel="stylesheet" href="style.css">
+        <!--font awesome icons link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+
+    <!--body-->
+    <body>
+        <!--header section-->
+        <header>
+            <nav class="navbar">
+                <div class="logo">LUCHIRI</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <!--home section-->
+        <section id="home" class="home">
+            <div class="particles-container" id="particles-js"></div>
+            <div class="home-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="home.png" alt="profile">
+                    </div>
+                </div>
+                <div class="home-text">
+                    <h1>Hi, I'm <span class="highlight">Catherine Luchiri</span></h1>
+                    <div class="typewriter">
+                        <span id="typed-text"></span><span class="cursor">|</span>
+                    </div>
+                    <p class="home-subtitle">Turning ideas into elegant code</p>
+                    <div class="home-buttons">
+                        <a href="#projects" class="btn primary-btn">View My Work</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <div class="arrow">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+
+        <!--about section-->
+        <section class="about" id="about">
+            <div class="content-container">
+                <h1 class="title">About Me</h1>
+                <p class="tagline">A passionate software engineer crafting digital experiences.</p>
+                <div class="image-container">
+                    <img src="home.png" alt="about image" class="about-img">
+                </div>
+                <div class="bio">
+                    <p>Hi, I'm Catherine Luchiri, a software engineer driven by innovation, problem-solving,
+                        and creating digital solutions that make an impact. My journey in tech began with
+                        a fascination for technology, and it has evolved into a mission to build solutions
+                        that empower and inspire. I am passionate about continuous learning and pushing the
+                        boundaries of what's possible. Let's innovate together!
+                    </p>
+                </div>
+                <a href="#projects" class="cta-button">Explore My Work</a>
+            </div>
+        </section>
+
+        <!--skills section-->
+        <section id="skills" class="skills">
+            <div class="s-container">
+                <h2 class="skills-title">Skills</h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Technical Skills</h3>
+                        <ul class="skills-list">
+                            <li>
+                                <i class="fas fa-code"></i>
+                                <span>HTML</span>
+                            </li>
+                            <li>
+                                <i class="fab fa-sass"></i>
+                                <span>CSS</span>
+                            </li>
+                            <li>
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </li>
+                            <li>
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-database"></i>
+                                <span>SQL</span>
+                            </li>
+                        </ul>
+                    </div>
+            <div class="skills-category">
+                <h3>Professional Skills</h3>
+                <ul class="skills-list">
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <span>TeamWork</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <span>Communication</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-lightbulb"></i>
+                        <span>Problem-Solving</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-crown"></i>
+                        <span>Leadership</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Time Management</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        </section>
+
+        <!--interests section-->
+        <section id="interests" class="interests">
+            <h1>My Interests & Hobbies</h1>
+            <div class="grid-container">
+                <div class="hobby-item" id="music">
+                    <i class="fas fa-music"></i>
+                    <div class="hover-text">I love listening to music.</div>
+                </div>
+                <div class="hobby-item" id="gaming">
+                    <i class="fas fa-gamepad"></i>
+                    <div class="hover-text">Gaming is my escape.</div>
+                </div>
+                <div class="hobby-item" id="reading">
+                    <i class="fas fa-book"></i>
+                    <div class="hover-text">Reading books helps me learn and grow.</div>
+                </div>
+                <div class="hobby-item" id="coding">
+                    <i class="fas fa-code"></i>
+                    <div class="hover-text">I enjoy coding and solving problems through programming.</div>
+                </div>
+            </div>
+            <div id="quiz-selection">
+                <h2>Guess My Favorite Hobby!</h2>
+                <input type="text" id="guess" placeholder="Enter your guess..." />
+                <button>Submit Guess</button>
+                <p id="quiz-feedback"></p>
+            </div>
+        </section>
+
+        <!--education section-->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item" data-year="2023-2027">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Bachelor of Science in Information Technology</h3>
+                            <h4>The Co-operative University of Kenya</h4>
+                            <p class="timeline-date">2023 - 2027</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-section">
+                <h3>My Resume</h3>
+                <div class="resume-actions">
+                    <a href="CATHERINE LUCHIRI ANDIWO - RESUME.pdf" download class="download-btn">
+                        <i class="fas fa-dowload"></i>
+                        <span>Download CV</span>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!--projects section-->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>My Projects</h2>
+                <p>Here are some of the projects I have worked on.</p>
+                <div class="project-gallery">
+                    <div class="project-card python">
+                        <div class="project-details">
+                            <h3>Python Project</h3>
+                            <p class="description">Python script for calculating the final price of an item after applying a discount.</p>
+                            <div class="links">
+                                <a href="https://github.com/Luchiri/calculatediscount.py.git" target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <div class="project-card python">
+                        <div class="project-details">
+                            <h3>CSS, HTML Project</h3>
+                            <p class="description">A user-friendly shopping cart for browsing and adding products.</p>
+                            <div class="links">
+                                <a href="https://github.com/Luchiri/online-shopping-cart.git" target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <div class="project-card python">
+                        <div class="project-details">
+                            <h3>Python Project</h3>
+                            <p class="description">Python script that demonstrates various list operations, including appending, inserting, extending, removing, sorting, and finding the index of an element.</p>
+                            <div class="links">
+                                <a href="https://github.com/Luchiri/list_operations.py.git" target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <div class="project-card python">
+                        <div class="project-details">
+                            <h3>Python Project</h3>
+                            <p class="description">Python-based calculator program that allows users to perform basic arithmetic operations:</p>
+                            <div class="links">
+                                <a href="https://github.com/Luchiri/basic-calculator.git" target="_blank">Github Repo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--contact section-->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="contact-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p><a href="mailto:catherine.luchiri@gmail.com">catherine.luchiri@gmail.com</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p><a href="tel:+254799907658">+254 79990 7658</a></p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/Luchiri" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/catherine-luchiri-3a6839277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://wa.me/+254799907658" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <input type="message" id="message" name="message" required>
+                            <div class="error-message"></div>
+                        </div>
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loader"></span>
+                        </button>
+                        <div id="formresult" class="form-result"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!--footer section-->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">CATHERINE LUCHIRI</div>
+                    <p class="footer-tagline">Code Creatively.</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#interests">Interests</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-right">
+                    <p class="copyright">© 2025 Catherine Luchiri. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!--javascript link-->
+        <script src="script.js"></script>
+    </body>
+</html>
