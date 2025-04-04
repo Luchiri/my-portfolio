@@ -13,4 +13,7 @@ Welcome to my personal **portfolio website**! 🚀 This is a beautifully designe
 
 ## 🛠️ Built With  
 - **HTML** – Structuring the content.  
-- **CSS** – Styling and animations for a sleek design.  
+- **CSS** – Styling and animations for a sleek design.
+
+## live link
+https://luchiri.github.io/my-portfolio/
